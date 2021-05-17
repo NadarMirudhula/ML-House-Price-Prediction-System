@@ -9,7 +9,8 @@
 In this project we have used various regression algorithms to predict the price of house the dataset used for house prediction is related the house price system in USA
 
 ## Dataset 
-The data.csv file in the repository is used to predict the House price
+<p>The data.csv file in the repository is used to predict the House price.</p>
+<p>For implementation of regression algorithms we have used all the attributes in the dataset to predict the price value.</p>
 
 ## Implementation
 We have used 4 regression algorithms for prediction
@@ -28,5 +29,5 @@ A Random Forest is an ensemble technique capable of performing both regression a
 Gradient boosting is a machine learning technique for regression and classification problems, which produces a prediction model in the form of an ensemble of weak prediction models, typically decision trees. When a decision tree is the weak learner, the resulting algorithm is called gradient boosted trees, which usually outperforms random forest. It builds the model in a stage-wise fashion like other boosting methods do, and it generalizes them by allowing optimization of an arbitrary differentiable loss function.
 
 ## Results
-We have calculated the Mean Absolute Error (MAE), Mean Squared Error (MSE), Root Mean Squared Error (RMSE) for all the regression algorithms but that doesn't help much in comparing accuracy of each algorithm. So we decided to plot the bar graph for actual value vs predicted value from which we have concluded that Gradient Boost regressor has less difference between actual and predicted value next to that Linear regression, Random Forest regression and at last Decision tree regression. 
-Decision tree regression overfits the Train data so while predicting Test data it gives high residual value.
+<p>We have calculated the Mean Absolute Error (MAE), Mean Squared Error (MSE), Root Mean Squared Error (RMSE) for all the regression algorithms but that doesn't help much in comparing accuracy of each algorithm. So we decided to plot the bar graph for actual value vs predicted value from which we have concluded that Gradient Boost regressor has less difference between actual and predicted value next to that Linear regression, Random Forest regression and at last Decision tree regression.</p> 
+<p>Decision tree regression overfits the Training data so while predicting Test data it gives high residual value.</p>
