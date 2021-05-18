@@ -6,7 +6,7 @@
 3. Surabhi Soni - 61
 
 ## Problem Statement
-In this project we have used various regression algorithms to predict the price of house the dataset used for house prediction is related the house price system in USA
+In this project we have used various regression algorithms to predict the price of house the dataset used for house prediction is related to the house price system in USA
 
 ## Dataset 
 <p>The data.csv file in the repository is used to predict the House price.</p>
@@ -30,4 +30,4 @@ Gradient boosting is a machine learning technique for regression and classificat
 
 ## Results
 <p>We have calculated the Mean Absolute Error (MAE), Mean Squared Error (MSE), Root Mean Squared Error (RMSE) for all the regression algorithms but that doesn't help much in comparing accuracy of each algorithm. So we decided to plot the bar graph for actual value vs predicted value from which we have concluded that Gradient Boost regressor has less difference between actual and predicted value next to that Linear regression, Random Forest regression and at last Decision tree regression.</p> 
-<p>Decision tree regression overfits the Training data so while predicting Test data it gives high residual value.</p>
+<p>Decision tree regression overfits the Training data as seen in the scatter plot of Y_train vs prediction of X_train values so while predicting for Test data it gives high residual value.</p>
